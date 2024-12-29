@@ -9,3 +9,9 @@ echo "Values in 3rd index ${myArra[3]}"
 
 #How to find no. of values in an array
 echo "No. of values, length of an array is ${myArray[*]}"
+
+#Updating our array with new values
+myArray+=( New 30 40)
+
+echo "Values of new array are ${myArray[*]}"
+
